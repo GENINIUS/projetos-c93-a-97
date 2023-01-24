@@ -42,7 +42,7 @@ function redirectToRoomName(name)
 {
   console.log(name);
   localStorage.setItem("roomName", name);
-    window.location = "kwitterPage.html";
+    window.location = "KwitterPage.html";
 }
 
 function logout() {
